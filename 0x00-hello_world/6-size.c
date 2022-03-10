@@ -1,8 +1,7 @@
 #include <stdio.h>
-/*
-   * main - Entry point
+/**
+   * main - point in which compilation starts
    *
-   *size of evaluates the size of a variable
    * Return: Always 0 (Success)
    */
 int main(void)
