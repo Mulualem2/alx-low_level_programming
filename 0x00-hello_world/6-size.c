@@ -2,6 +2,7 @@
 /*
    * main - Entry point
    *
+   *size of evaluates the size of a variable
    * Return: Always 0 (Success)
    */
 int main(void)
