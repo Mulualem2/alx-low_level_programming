@@ -23,7 +23,7 @@ int main(void)
 			b1 = b2, b2 = place2;
 			printf("%lu%010lu", a2, b2);
 		}
-		else 
+		else
 		{
 			place2 = b1 + b2;
 			b1 = b2, b2 = place2;
