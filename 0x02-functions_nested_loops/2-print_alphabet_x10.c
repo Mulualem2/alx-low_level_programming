@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *main -entry point
+  *print_alphabet_x10 - printalphbaet in lower case 10 x
   *
   *Return: 0 (Success)
   */
