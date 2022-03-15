@@ -21,7 +21,7 @@ int main(void)
 			place3 = a1 + a2 + place1;
 			a1 = a2, a2 = place3;
 			b1 = b2, b2 = place2;
-			printf("%lu%0101lu", a2, b2);
+			printf("%lu%010lu", a2, b2);
 		}
 		else 
 		{

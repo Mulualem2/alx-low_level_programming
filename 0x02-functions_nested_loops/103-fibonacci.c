@@ -16,11 +16,10 @@ int main(void)
 		if (y % 2 == 0)
 		{
 			sum += y;
-
+		}
 			z = y;
 			y += x;
 			x = z;
-		}
 	}
 	printf("%d\n", sum);
 	return (0);
