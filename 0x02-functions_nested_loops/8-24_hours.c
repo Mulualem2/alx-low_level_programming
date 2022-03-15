@@ -18,6 +18,7 @@ void jack_bauer(void)
 		_putchar(z + '0');
 		_putchar('\n');
 
+		z++;
 		if (z > 9)
 		{
 			z = 0;
