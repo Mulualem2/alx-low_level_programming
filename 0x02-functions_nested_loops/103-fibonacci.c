@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (y % 2 == 0)
 		{
-			sum += x;
+			sum += y;
 
 			z = y;
 			y += x;
