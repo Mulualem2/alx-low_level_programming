@@ -1,7 +1,8 @@
 #include "main.h"
 /**
-  *main - entry point
-  *
+  *add - add two numbers
+  *@a: int type number
+  *@b: int typr number
   *Return: a + b success
   */
 int add(int a, int b)
