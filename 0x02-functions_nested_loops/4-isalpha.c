@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-  *main - entry point
-  *
+  *_isalpha - check if the in put is alphabetmain
+  *@c:int type  character
   *Return 0 (success)
   */
 int _isalpha(int c)
