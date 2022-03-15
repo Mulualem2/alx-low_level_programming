@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *main - entry point
+  *jack_bauer - print every second in 24 hours
   *
   *Description: from 00:00 to 23:59
   */
