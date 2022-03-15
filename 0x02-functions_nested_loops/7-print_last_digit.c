@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-  *main - entry point 
-  *
+  *print_last_digit - print the last digit 
+  *@n: int type
   *Return: 0 (success)
   */
 int print_last_digit(int n)
