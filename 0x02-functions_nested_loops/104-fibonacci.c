@@ -12,7 +12,7 @@ int main(void)
 	int count;
 
 	printf("%lu, %lu, ", b1, b2);
-	for (count = 2;+ count < 98; count++)
+	for (count = 2; count < 98; count++)
 	{
 		if (b1 + b2 > LARGEST || a2 > 0 || a1 > 0)
 		{
