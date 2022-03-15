@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  *main - entry point 
-  *
-  *Return: 0 (succcess)
+  *_abs - find absolyute value of the givien number
+  *@n: int type number
+  *Return: n (positive) n * -1 (if it is negative)
   */
 int _abs(int n)
 {
