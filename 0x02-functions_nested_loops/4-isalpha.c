@@ -2,7 +2,7 @@
 /**
   *_isalpha - check if the in put is alphabetmain
   *@c:int type  character
-  *Return 0 (success)
+  *Return: 0 (not alphabet) 1 (is alphabet)
   */
 int _isalpha(int c)
 {
