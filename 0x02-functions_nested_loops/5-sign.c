@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  *main - entry point
+  *print_sign - check whether the number is positive or negative
   *
-  *Return: 0 (success)
+  *Return: 0 (zero) 1 (positive) -1 (negative)
   */
 int print_sign(int n)
 {
