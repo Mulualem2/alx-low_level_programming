@@ -4,9 +4,11 @@
   *@size: int type number
   *Return: void
   */
+
 void print_square(int size)
 {
-	int i, c;
+	int i;
+	int c;
 
 	if (size <= 0)
 	{
