@@ -38,7 +38,7 @@ void print_number(int n)
 		}
 		else
 		{
-			_putchar((x / y % 10) + 0);
+			_putchar((x / y % 10) + '0');
 			y /= 10;
 		}
 	}
