@@ -2,7 +2,7 @@
 /**
   *_isupper - check wheather the in put is uppercase or not
   *@c: intiger type variable
-  *Return: 1 (is uppercase) or 0 (is lowercase)
+  *Return: 1 is uppercase, 0 not
   */
 
 int _isupper(int c)
