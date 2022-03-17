@@ -20,10 +20,9 @@ void print_number(int n)
 		_putchar('-');
 	}
 
-	
 	a = 1;
 	b = 1;
-	while (a)
+	while (b)
 	{
 		if (c / (a * 10) > 0)
 			a *= 10;
@@ -31,6 +30,7 @@ void print_number(int n)
 			b = 0;
 	}
 
+	/* count down */
 	while (c >= 0)
 	{
 		if (a == 1)
