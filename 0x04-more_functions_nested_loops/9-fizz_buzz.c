@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>i
 
 /**
   *main - entry point
@@ -35,6 +35,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-
 	return (0);
 }
