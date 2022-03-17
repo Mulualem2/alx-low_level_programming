@@ -8,40 +8,40 @@
 
 void print_number(int n)
 {
-	long a;
-	int b;
-	long c;
+	long m;
+	int c;
+	long num;
 
-	c = n;
+	num = n;
 	
-	if (c < 0)
+	if (num < 0)
 	{
-		c *= -1;
+		num *= -1;
 		_putchar('-');
 	}
 
-	a = 1;
-	b = 1;
-	while (b)
+	m = 1;
+	c = 1;
+	while (c)
 	{
-		if (c / (a * 10) > 0)
-			a *= 10;
+		if (num / (m * 10) > 0)
+			m *= 10;
 		else
-			b = 0;
+			c = 0;
 	}
 
 	/* count down */
-	while (c >= 0)
+	while (num >= 0)
 	{
-		if (a == 1)
+		if (m == 1)
 		{
-			_putchar(c % 10 + '0');
-			c = -1;
+			_putchar(num % 10 + '0');
+			num = -1;
 		}
 		else
 		{
-			_putchar((c / a % 10) + '0');
-			a /= 10;
+			_putchar((num / m % 10) + '0');
+			m /= 10;
 		}
 	}
 }
