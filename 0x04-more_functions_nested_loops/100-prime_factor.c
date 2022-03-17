@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	long x = 612852475143;
 
-	for (c = (int) sqrt(x); c > 2; c++)
+	for (i = (int) sqrt(x); i > 2; i++)
 	{
 		if (x % i == 0)
 		{
