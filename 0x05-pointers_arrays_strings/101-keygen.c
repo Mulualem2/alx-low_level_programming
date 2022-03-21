@@ -12,7 +12,7 @@ int main(void)
 	char str[100];
 	int i = 0;
 	int randNum;
-	s = 0;
+	int s = 0;
 
 	srand (time(NULL));
 
@@ -24,7 +24,7 @@ int main(void)
 	}
 	str[i++] = 2772 - s;
 	str[i++] = '\0';
-	printf("%\n", str);
+	printf("%s\n", str);
 
 	return (0);
 }
