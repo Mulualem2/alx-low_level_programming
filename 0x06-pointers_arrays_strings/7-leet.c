@@ -5,23 +5,25 @@
  *
  * Return: string after conversion of 'leet'
  */
-char *leet(char *s)
+char *leet(char *n)
 {
-	int i;
+	int i, x;
+	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int replacer[] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		while (s[i] == 'a' || s[i] == 'A')
-			s[i] = '4';
-		while (s[i] == 'e' || s[i] == 'E')
-			s[i] = '3';
-		while (s[i] == 'o' || s[i] == 'O')
-			s[i] = '0';
-		while (s[i] == 't' || s[i] == 'T')
-			s[i] = '7';
-		while (s[i] == 'l' || s[i] == 'L')
-			s[i] = '1';
+		for (x = 0; x <= 9; x++)
+		{
+			if (n[i] == find[x])
+			{
+				n[i] = replacer[x / 2];
+				x = 9;
+			}
+		}
 	}
 
+	return (n);
+}
 	return (s);
 }
