@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  **_strncpy - copies string
+  * _strncpy - copies string
   *@src: char type pointer
   *@dest: char type pointer
   *n: int type number
