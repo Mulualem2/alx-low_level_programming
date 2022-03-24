@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  **_strncat - concatinate string
+  * _strncat - concatinate string
   *@deat: char type pointer
   *@src: char type pointer
   *@n: int type number
