@@ -1,4 +1,4 @@
-#include "bootcamp.h"
+#include "main.h"
 /**
  * leet - translates string to leet
  * @s: char type pointer
