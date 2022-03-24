@@ -7,43 +7,26 @@
 
 void print_number(int n)
 {
-	int power;
-	int neg;
-	int hold;
+	int cpy, nth, size = 1, ones = n % 10;
 
-	neg = 0;
-	power = 1;
-	hold = n;
-	if (n < 0)
+	n /= 10;
+	cpy = n;
+	if (ones < 0)
 	{
+		ones *= -1, cpy *= -1, n *= -1;
 		_putchar('-');
-		neg = 1;
 	}
-
-	while (hold > 9 || hold < -9)
+	if (cpy > 0)
 	{
-		power *= 10;
-		hold /= 10;
-	}
-
-	while (power > 0)
-	{
-		if (power > 9)
+		while (cpy / 10 != 0)
+			cpy /= 10, size *= 10;
+		while (size > 0)
 		{
-			if (!neg)
-				_putchar((n / power % 10) + '0');
-			else
-				_putchar((n / power % 10) * -1 + '0');
-
-			power /= 10;
-		}
-		if (power == 1)
-		{
-			if (neg)
-				_putchar((n % 10) * -1 + '0');
-			else
-				_putchar(n % 10 + '0');
-			power = 0;
+			nth = n / size;
+			_putchar('0' + nth);
+			n -= nth * size;
+			size /= 10;
 		}
 	}
+	_putchar('0' + ones);
 }
