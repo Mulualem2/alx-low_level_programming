@@ -6,22 +6,19 @@
   *@n: int type number
   *Return: string
   */
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
-	int len =0;
-	int i;
+	int i, c;
 
-	while (dest[len])
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		len++;
 	}
-	while (i < n && src[i])
-	{
-		dest[len] = src[i];
-		len++;
-		i++;
-	}
-	dest[len + n + 1] = '\0';
 
+	for (c = 0; c < n; c++)
+	{
+		dest[i + c] = src[c];
+		if (src[c] == '\0')
+			c = n;
+	}
 	return (dest);
 }
