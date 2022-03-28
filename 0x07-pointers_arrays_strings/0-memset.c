@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  **_memset - fills memory with a constant byte
+  *_memset - fills memory with a constant byte
   *@s: char type pointer
   *@b: char type variable
   *@n: int type variable
-  :Return: pointer to the memory area
+  *:Return: pointer to the memory area
   */
 
 char *_memset(char *S, char b, unsigned int n)
