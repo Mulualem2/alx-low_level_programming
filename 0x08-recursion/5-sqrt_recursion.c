@@ -2,7 +2,7 @@
 /**
  * sqrt_check - checks for the square root of c
  * @g: int type number
- * @c; int type number
+ * @c: int type number
  *
  * Return: -1 or sqrt of c
  */
