@@ -1,25 +1,25 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * _calloc - allocates memory for an array
- * @nmemb: int type number
- * @size: int type number
- * Return: pointer to allocated memory
+ * _calloc - print 0s into 2D grid
+ * @nmemb: array num
+ * @size: size of ea array element
+ * Return: 0
  */
-
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *p;
+	char *arr;
 	unsigned int i;
 
-	if (nmemb <= 0 || size <= 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	p = malloc(nmemb * size);
-	if (p == NULL)
+	arr = malloc(nmemb * size);
+	if (arr == NULL)
 		return (NULL);
-	for (i = 0; i < nmemb; i++)
-		p[i] = 0;
 
-	return (p);
+	for (i = 0; i < (nmemb * size); i++)
+		arr[i] = 0;
+
+	return (arr);
 }
